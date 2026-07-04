@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أكاديمية سنام</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Tahoma,Arial,sans-serif;background:#05080f;color:#fff;line-height:1.8}
+    a{text-decoration:none;color:inherit}
+    .hero{min-height:100vh;background:radial-gradient(circle at top,#102b5c 0,#05080f 55%,#000 100%);display:flex;align-items:center;justify-content:center;padding:40px 18px;text-align:center}
+    .card{max-width:980px;width:100%;border:1px solid rgba(212,175,55,.35);border-radius:28px;padding:34px;background:rgba(0,0,0,.42);box-shadow:0 0 40px rgba(212,175,55,.18)}
+    .logo{width:220px;max-width:70%;border-radius:22px;margin-bottom:20px;box-shadow:0 0 35px rgba(0,0,0,.6)}
+    h1{font-size:48px;color:#d4af37;margin-bottom:8px}
+    .tagline{font-size:23px;color:#7db6ff;margin-bottom:24px}
+    .info{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:15px;margin:28px 0}
+    .box{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);padding:18px;border-radius:18px}
+    .box span{display:block;color:#d4af37;font-weight:bold;margin-bottom:5px}
+    .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+    .btn{padding:14px 24px;border-radius:999px;font-weight:bold}
+    .gold{background:#d4af37;color:#05080f}
+    .blue{background:#0d6efd;color:white}
+    section{padding:70px 18px;max-width:1100px;margin:auto}
+    h2{font-size:34px;color:#d4af37;text-align:center;margin-bottom:25px}
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+    .feature{background:#0b1220;border:1px solid rgba(212,175,55,.22);border-radius:20px;padding:22px}
+    .feature h3{color:#7db6ff;margin-bottom:8px}
+    .schedule{width:100%;border-collapse:collapse;overflow:hidden;border-radius:18px;background:#0b1220}
+    th,td{padding:15px;border-bottom:1px solid rgba(255,255,255,.1);text-align:center}
+    th{background:#d4af37;color:#05080f}
+    footer{text-align:center;padding:35px 18px;background:#02040a;color:#aaa}
+    @media(max-width:600px){h1{font-size:36px}.tagline{font-size:19px}.card{padding:24px}.logo{width:180px}}
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="card">
+      <img class="logo" src="snam-logo.jpeg" alt="شعار أكاديمية سنام">
+      <h1>أكاديمية سنام</h1>
+      <p class="tagline">نصنع المهارة .. نبني المستقبل</p>
+      <p>أكاديمية كرة قدم في جدة تهتم بتطوير اللاعبين من عمر ٦ سنوات إلى ١٧ سنة، من خلال تدريب منظم، بيئة محفزة، وانضباط رياضي.</p>
+
+      <div class="info">
+        <div class="box"><span>الموقع</span>جدة - حي المحاميد</div>
+        <div class="box"><span>الأعمار</span>من ٦ إلى ١٧ سنة</div>
+        <div class="box"><span>التسجيل</span>متاح الآن</div>
+      </div>
+
+      <div class="btns">
+        <a class="btn gold" href="https://wa.me/966538805451" target="_blank">سجل الآن عبر واتساب</a>
+        <a class="btn blue" href="tel:0538805451">اتصل بنا</a>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>عن الأكاديمية</h2>
+    <div class="features">
+      <div class="feature"><h3>تدريب مهاري</h3><p>تطوير التحكم، التمرير، التسديد، والمراوغة بأساليب تدريب حديثة.</p></div>
+      <div class="feature"><h3>إعداد بدني</h3><p>رفع اللياقة، السرعة، الرشاقة، وقوة التحمل بما يناسب كل فئة عمرية.</p></div>
+      <div class="feature"><h3>انضباط وشخصية</h3><p>تعزيز الالتزام، الروح الرياضية، والثقة داخل وخارج الملعب.</p></div>
+      <div class="feature"><h3>بيئة آمنة</h3><p>متابعة مستمرة للاعبين وتدريب مناسب لمستوياتهم العمرية والمهارية.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>الفئات العمرية</h2>
+    <table class="schedule">
+      <tr><th>الفئة</th><th>العمر</th><th>الهدف</th></tr>
+      <tr><td>البراعم</td><td>٦ - ٩ سنوات</td><td>أساسيات الكرة والمتعة والانضباط</td></tr>
+      <tr><td>الناشئين</td><td>١٠ - ١٣ سنة</td><td>تطوير المهارات واللعب الجماعي</td></tr>
+      <tr><td>الشباب</td><td>١٤ - ١٧ سنة</td><td>الإعداد الفني والبدني للمباريات</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>التسجيل والتواصل</h2>
+    <div class="card" style="margin:auto;text-align:center">
+      <p style="font-size:22px">للتسجيل في أكاديمية سنام تواصل معنا مباشرة عبر الواتساب</p>
+      <h2 style="margin:15px 0">0538805451</h2>
+      <a class="btn gold" href="https://wa.me/966538805451" target="_blank">فتح الواتساب</a>
+    </div>
+  </section>
+
+  <footer>
+    جميع الحقوق محفوظة © أكاديمية سنام
+  </footer>
+
+</body>
+</html>
